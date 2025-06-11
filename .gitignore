@@ -1,0 +1,39 @@
+# .gitignore
+
+# audio files
+# mode.mp3
+# answer.mp3
+# caption.mp3
+# assistant.mp3
+# direction.mp3
+# error_mode.mp3
+# repeat_mode.mp3
+voice_recog.wav
+*.mp3
+
+# Virtual environment
+.venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+
+# System files
+.DS_Store
+
+# Environment variables file
+.env
+
+# Flask related files
+instance/
+*.pyc
+*.pyo
+
+# Log files
+*.log
+.vercel
